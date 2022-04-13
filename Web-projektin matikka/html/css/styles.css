@@ -1,0 +1,237 @@
+/*Sauli Holappa*/
+
+/* perus CSS asetukset alkaa*/
+
+body {
+    font-family:Curlz MT;
+    line-height: 1.8;
+    color:chartreuse;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+
+h1 { /*valitse vastaus*/
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding-top: 2px;
+    font-family: Monotype Corsiva;
+    color:hsl(204, 85%, 34%);
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+
+
+p {
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    color:hsl(204, 85%, 34%);
+    font-family: Monotype Corsiva;
+    font-size: 35px;
+    text-shadow: -1px 0px rgb(114, 70, 12), 0 0px black, 0px 0 black, 0 -1px black;
+}
+a {
+    font-weight: 700;
+    transition: all 0.5s ease; /*tämä aika vaikuttaa kuinka linkin väri muuttuu*/
+}
+
+small {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+/* perus CSS asetukset loppuu*/
+
+/* Navbar CSS asetukset alkaa*/
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container {
+        
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+    max-width: 100%;
+    
+}
+
+.border {
+    border: 6px solid rgb(13, 80, 173);
+    padding: 2px;
+   }
+
+.logo-text {
+    float: left;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: AlphaWood;
+    color: rgb(15, 115, 40);
+
+}
+
+.navbar .nav-link {
+    float: right;
+    font-family:Curlz MT;
+    color:chartreuse;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background-color: brown;
+    font-weight: bolder;
+}
+
+.navbar-dark .navbar-nav a.nav-link.active {
+    color:chartreuse;
+}
+
+.navbar-dark .navbar-brand{
+    
+    color:chartreuse; 
+}
+
+
+/* Navbar CSS asetukset loppuu*/
+
+/*matikkasivun pohja alkaa*/
+
+#matikkasivu {
+    background-color: rgb(220, 159, 79);
+    min-height: 100vh;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: top;
+    max-width: 100%;
+}
+
+/*matikkasivun pohja loppuu*/
+
+/*matikka nappulat alkaa*/
+#startBtn {
+    margin-left: 0.8em;
+    background-color: rgb(40, 145, 220);
+    font-size: 4em;
+    color:hsl(204, 85%, 34%);
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+    h2 {
+    margin-left: 0.8em;
+    font-size: 4em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding-top: 2px;
+    font-family: Monotype Corsiva;
+    color:hsl(204, 85%, 34%);
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+#btn1 {
+    
+    margin-left: 0.5em; 
+    margin:0.25em;
+    background-color: blue;
+    font-family:Curlz MT;     
+    font-size: 5em;
+    color:#FFB813;
+    padding: 0.25em;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#btn2 {
+    
+    margin-left: 0.5em; 
+    margin:0.25em;
+    background-color: rgb(201, 36, 77);
+    font-family:Curlz MT;     
+    font-size: 5em;
+    color:#FFB813;
+    padding: 0.25em;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#btn3 {
+    
+    margin-left: 0.5em; 
+    margin:0.25em;
+    background-color: rgb(15, 115, 40);
+    font-family:Curlz MT;     
+    font-size: 5em;
+    color:#FFB813;
+    padding: 0.25em;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#btn4 {
+    
+    margin-left: 0.5em; 
+    margin:0.25em;
+    background-color: rgb(145, 143, 28);
+    font-family:Curlz MT;     
+    font-size: 5em;
+    color:#FFB813;
+    padding: 0.25em;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/*kertolasku*/
+.big {
+    margin-left: 0.8em;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-family: Monotype Corsiva;
+    color:hsl(204, 85%, 34%);
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+   
+}
+
+#operation.big {
+    
+    font-family:Monotype Corsiva;
+    color:hsl(204, 85%, 34%);    
+    padding: 0.25;
+    font-size: 5em;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+
+.timer {
+    margin-left: 0.8em;
+    font-size: 2.5em;
+    font-family:Curlz MT;
+    text-shadow: -1px 0px rgb(114, 70, 12), 0 0px black, 0px 0 black, 0 -1px black;
+    color:hsl(204, 85%, 34%);
+    padding: 0.5em;
+    font-size: 2.5em
+    
+}
+
+.score {
+    margin-left: 0.8em;
+    font-size: 5em;
+    font-family:Curlz MT;
+    text-shadow: -1px 0px rgb(114, 70, 12), 0 0px black, 0px 0 black, 0 -1px black;
+    color:hsl(204, 85%, 34%);
+    padding: 0.25;
+    font-size: 2.5em
+}
+
+#currentScore.score {
+    font-size: 4em;
+}
+
+.btn1 .btn2 .btn3 .btn4 {
+    font-size: 5em;
+
+}
+/*matikka nappulat loppuu*/
