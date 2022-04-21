@@ -1,4 +1,5 @@
-/*Sauli Holappa*/
+/*Sauli Holappa
+Saulin Matikkasivu*/
 
     let timeLeft = 60;
     let timerInterval;
