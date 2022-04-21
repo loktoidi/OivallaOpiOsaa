@@ -1,0 +1,10 @@
+.border {
+    border: 6px solid #0e66be!important;
+    padding: 2px;
+    border-style: groove;
+   }
+
+   .navbar-dark .navbar-brand {
+    color: chartreuse;
+}
+
