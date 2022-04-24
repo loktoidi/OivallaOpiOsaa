@@ -10,9 +10,15 @@
     rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
     crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+
+     <!--bootstrap icons-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar"> <!--tämä scrollaa ruutua navibarin pysyessä paikoillaan-->
-     <!--Navbar alkaa-->
+     
+
+  <!--Navbar alkaa-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
         <div class="container">
             <a class="navbar-brand logo-text">OIVALLA-OPI-OSAA</a>
@@ -20,7 +26,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto"> <!--miksi tämä ei siirrä oikeaan laitaan?-->
+            <ul class="navbar-nav ms-auto"> 
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#Etusivu">ETUSIVU</a>
               </li>
@@ -42,11 +48,12 @@
       </nav>
 <!--Navbar loppuu-->
 
-<!--Etusivu alkaa-->
+<!--Etusivu tekstit alkaa-->
       <section id="Etusivu">
-          <div class="container1">
+          <div class="container1 h-100 container-custom position-relative">
               <div class="row">
                    <div class="col-md-10">
+                     
                         <h1 class="display-4">MISTÄ KAIKKI SUURET SEIKKAILUT ALKAVAT!</h1><br>                                                             
                         <p>Opi kanssamme lippuja, Suomi-tietoutta ja matematiikkaa.</p>
                    </div>    
@@ -54,10 +61,41 @@
           </div> 
          
        </section>
-<!--Etusivu loppuu-->
+
+        
+<!--Etusivu tekstit loppuu-->
+
+<!--footer alkaa-->
+<footer class="footer bg-dark text-white">
+  <div class="container-custom d-flex justify-content-between
+       align-items-center py-3 border-highlight">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="me-2 text-muted">
+        <i class="bi bi-cup"></i>
+        <span>&copy; 2022 OivallaOpiOsaa</span>
+      </a>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-white">
+      <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i>></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i>></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-linkedin"></i>></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i>></a></li>
+    </ul>
+
+
+  </div>
+
+
+
+</footer>
+
+
+
+<!--footer loppuu-->
 
 <!--Tietoja -sivu alkaa-->
-      <section id="Tietoja" class="row g-0 py-0 text-center">
+      <section id="Tietoja" class="row g-3 py-3 text-center">
         <h4 class="display-3">Me olemme mukanasi seikkailulla.</h4>
           
           <div class="col-lg-4 col-sm-6 tekijä">
@@ -115,6 +153,35 @@
         </div>
 
       </section>
+
+       <!--footer alkaa-->
+  <footer class="footer bg-dark text-white">
+    <div class="container-custom d-flex justify-content-between
+         align-items-center py-3 border-highlight">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="me-2 text-muted">
+          <i class="bi bi-cup"></i>
+          <span>&copy; 2022 Am I alone</span>
+        </a>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-white">
+        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i>></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i>></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-linkedin"></i>></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i>></a></li>
+      </ul>
+
+
+    </div>
+
+
+
+  </footer>
+
+
+
+  <!--footer loppuu-->
 
 
 
