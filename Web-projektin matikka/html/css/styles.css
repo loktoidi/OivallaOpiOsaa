@@ -16,12 +16,13 @@ body {
 }
 
 p {
-    font-weight: 700;
-    letter-spacing: 1.8px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
     color:hsl(204, 85%, 34%);
     font-family: Monotype Corsiva;
     font-size: 35px;
     text-shadow: -1px 0px rgb(114, 70, 12), 0 0px black, 0px 0 black, 0 -1px black;
+    text-align: center;
 }
 a {
     font-weight: 700;
@@ -33,6 +34,8 @@ small {
     letter-spacing: 2px;
     font-weight: 700;
 }
+
+
 
 /* perus CSS asetukset loppuu*/
 
@@ -91,7 +94,6 @@ li a:hover {
 .matikka {
     position: relative;
     height: 100vh;
-    background-color: var(--primary-color);
     overflow: hidden;
 
 }
@@ -116,19 +118,18 @@ li a:hover {
     background-color: rgb(40, 145, 220);
     font-size: 4em;
     color:hsl(204, 85%, 34%);
-    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: -1px 0px rgb(249, 245, 245), 0 1px rgb(247, 245, 245), 1px 0 rgb(250, 246, 246), 0 -1px rgb(250, 247, 247);
 }
 
-h1, h2 { /*valitse vastaus*/
+h1, h2{ /*valitse vastaus*/
     font-size: 10px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    padding-top: 2px;
+    padding-top: 3px;
     font-family: Monotype Corsiva;
     color:hsl(204, 85%, 34%);
     text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
     text-align: center;
-    vertical-align: middle;
     line-height: 90px;
     
 }
@@ -162,7 +163,7 @@ h1, h2 { /*valitse vastaus*/
 
 #btn3 {
     
-    margin-left: 0.5em; 
+    margin-left: 0.5em;
     margin:0.25em;
     background-color: rgb(15, 115, 40);
     font-family:Curlz MT;     
@@ -182,6 +183,11 @@ h1, h2 { /*valitse vastaus*/
     color:#FFB813;
     padding: 0.25em;
     text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.buttons {
+    text-align: center;
+
 }
 
 /*kertolasku*/
@@ -214,7 +220,7 @@ h1, h2 { /*valitse vastaus*/
     text-shadow: -1px 0px rgb(114, 70, 12), 0 0px black, 0px 0 black, 0 -1px black;
     color:hsl(204, 85%, 34%);
     padding: 0.5em;
-    font-size: 2.5em
+    font-size: 3.5em
     
     
 }
@@ -226,7 +232,7 @@ h1, h2 { /*valitse vastaus*/
     text-shadow: -1px 0px rgb(114, 70, 12), 0 0px black, 0px 0 black, 0 -1px black;
     color:hsl(204, 85%, 34%);
     padding: 0.25;
-    font-size: 2.5em
+    font-size: 3.5em
         
 }
 
@@ -241,5 +247,12 @@ h1, h2 { /*valitse vastaus*/
 
 }
 
-
 /*matikka nappulat loppuu*/
+
+/*footer alkaa*/
+
+
+
+/*footer loppuu*/
+
+

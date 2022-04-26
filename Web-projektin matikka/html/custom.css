@@ -8,3 +8,21 @@
     color: chartreuse;
 }
 
+/*footer alkaa*/
+ul {
+    padding-right: 2rem;
+}
+
+span {
+    padding-left: 2rem;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+/*footer loppuu*/
