@@ -3,3 +3,10 @@
     padding-bottom: 0.3!important;
 }
 
+ul {
+    padding-right: 2rem;
+}
+
+span {
+    padding-left: 2rem;
+}
