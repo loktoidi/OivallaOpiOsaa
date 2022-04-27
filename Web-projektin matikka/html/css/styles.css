@@ -11,6 +11,12 @@ body {
     letter-spacing: 1.5px;
 }
 
+.border {
+    border: 6px solid #0e66be!important;
+    padding: 2px;
+    border-style: groove;
+   }
+
 .container {
     max-height: flex;
 }
@@ -35,6 +41,9 @@ small {
     font-weight: 700;
 }
 
+span {
+    padding-left: 2rem;
+}
 
 
 /* perus CSS asetukset loppuu*/
@@ -52,6 +61,10 @@ section {
     margin-right: 1.5px;
     max-width: 100%;
     
+}
+
+.navbar-dark .navbar-brand {
+    color: chartreuse;
 }
 
 
@@ -74,6 +87,11 @@ section {
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
+
+ul {
+    padding-right: 2rem;
+}
+
 
 li a:hover {
     background-color: brown;
