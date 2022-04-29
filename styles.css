@@ -76,6 +76,10 @@ section {
     
 }
 
+.container1 {
+    
+}
+
 
 .logo-text {
     font-size: 35px;
@@ -92,18 +96,29 @@ section {
     font-size: 25px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    color:hsl(204, 85%, 34%);
     text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color:hsl(306, 72%, 66%);
+}
+
+
+
 li a:hover {
-    background-color: brown;
+    background-color: rgb(34, 138, 105, 0.7);
     font-weight: bolder;
+    max-width: 100px 
+    
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgb(67, 235, 33);
+    border-color: rgb(5, 67, 12);
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
-    color:chartreuse;
-         
+    color:chartreuse;   
 
 }
 
@@ -113,13 +128,16 @@ li a:hover {
     
 }
 
+
+
+
 /* Navbar CSS asetukset loppuu*/
 
 /* Etusivu asetukset alkaa*/
 
 #Etusivu {
     background: url(images/OOO.jpg);
-    min-height: 100vh;
+    min-height: 90vh;
     background-size: cover;
     background-position: left;
     background-attachment: fixed;
@@ -129,14 +147,52 @@ li a:hover {
 
 #Etusivu h1 {
     font-weight: 700;
+    color:rgb(34, 138, 105);
+    text-shadow: -1px 0px rgb(255, 253, 253), 0 1px rgb(249, 248, 248), 1px 0 rgb(249, 246, 246), 0 -1px rgb(253, 251, 251);
 }
 
-.container1 {
-    margin-left: 5px;
+.container1  {
+    margin-left: 50px;
     margin-right: 3px;
+    margin-top: 1px;
+    width: 100%;
+   
+}
+
+
+.container2 {
+    margin-left: 50px;
+    margin-right: 3px;
+    margin-top: 800px;
+    width: 100%;
     
 }
 
+/*etusivu teksti container*/
+.container1 .container2 {
+    width: 100%;
+    padding: 0 1rem;
+    margin:0 auto;
+}
+
+@media (min-width: 1200px) {
+    .container1 .container2 
+       {width: 1140%;}
+       
+}
+
+@media (min-width: 1400px) {
+    .container1 .container2 
+        {width: 1340%;}
+       
+}
+
+@media (min-width: 1600px) {
+     .container2 
+        {width: 1520%;}
+        
+       
+}
 /* Etusivu asetukset loppuu*/
 
 /*Tietoja -sivu alkaa*/
