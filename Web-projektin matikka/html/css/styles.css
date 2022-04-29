@@ -55,51 +55,60 @@ section {
     padding-bottom: 100px;
 }
 
-.navbar .container {
-        
-    margin-left: 1.5px;
-    margin-right: 1.5px;
+.container {
+    margin-left: 3px;
+    margin-right: 3px;
     max-width: 100%;
     
 }
 
-.navbar-dark .navbar-brand {
-    color: chartreuse;
-}
 
 
 .logo-text {
-    float: left;
     font-size: 35px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: AlphaWood;
-    color: rgb(15, 115, 40);
+    color:hsl(204, 85%, 34%);
     text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
 
 }
 
 .navbar .nav-link {
-    float: right;
+    
     font-family:Curlz MT;
-    color:chartreuse;
     font-size: 25px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-ul {
-    padding-right: 2rem;
+.navbar-dark .navbar-nav .nav-link {
+    color:hsl(306, 72%, 66%);
 }
+
 
 
 li a:hover {
-    background-color: brown;
+    background-color: rgb(34, 138, 105, 0.7);
     font-weight: bolder;
+    max-width: 100px 
+    
 }
 
-.navbar-dark .navbar-nav a.nav-link.active {
+.navbar-dark .navbar-toggler {
+    color: rgb(67, 235, 33);
+    border-color: rgb(5, 67, 12);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color:chartreuse;   
+
+}
+
+
+.navbar-dark .navbar-brand {
     color:chartreuse;
+    
 }
 
 
