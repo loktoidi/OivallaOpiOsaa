@@ -194,7 +194,7 @@ h3{ /*valitse vastaus*/
 }
 
 #btn1:hover {
-    background-color: rgb(67, 67, 216);
+    background-color: rgb(67, 186, 216);
 }
 
 #btn2 {
@@ -291,16 +291,19 @@ h3{ /*valitse vastaus*/
 .score {
     margin-left: 0.8em;
     font-size: 5em;
-    font-family:Curlz MT;
+    text-align: center;
+    font-family:Monotype Corsiva;
     text-shadow: -1px 0px rgb(114, 70, 12), 0 0px black, 0px 0 black, 0 -1px black;
     color:hsl(204, 85%, 34%);
     padding: 0.25;
     font-size: 3.5em
+   
         
 }
 
 #currentScore.score {
     font-size: 4em;
+    text-align: center;
     
 }
 
