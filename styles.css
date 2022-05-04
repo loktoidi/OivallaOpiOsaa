@@ -144,15 +144,15 @@ li a:hover {
 
 #Etusivu h1 {
     font-weight: 700;
-    color:rgb(34, 138, 105);
-    text-shadow: -1px 0px rgb(255, 253, 253), 0 1px rgb(249, 248, 248), 1px 0 rgb(249, 246, 246), 0 -1px rgb(253, 251, 251);
+    color:rgb(14, 106, 193);
+    text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .container1  {
     margin-left: 50px;
     margin-right: 3px;
     margin-top: 1px;
-    width: 100%;
+   
    
 }
 
@@ -160,8 +160,8 @@ li a:hover {
 .container2 {
     margin-left: 50px;
     margin-right: 3px;
-    margin-top: 800px;
-    width: 100%;
+    margin-top: 950px;
+    
     
 }
 
@@ -216,6 +216,11 @@ h4 {
     
 }
 
+.nalle-img {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
 .tekijä.even {
     background-color: rgb(228, 107, 67);
     
@@ -231,31 +236,33 @@ h4 {
 
 h2 /*omat nimet*/{
     font-weight: 700;
-    color:hsl(204, 85%, 34%);
+    color:hsl(165, 80%, 19%);
     font-size: 65px;
-    text-shadow: -1px 0px rgb(255, 254, 254), 0 0px black, 0px 0 black, 0 -1px black;
+    text-shadow: -1px 0px rgb(2, 2, 2), 0 0px black, 0px 0 black, 0 -1px black;
 }
 
 h3 /*Web designer -teksti*/ {
     font-weight: 500;
     font-size: 45px;
     color:hsl(204, 84%, 48%);;
-    text-shadow: -1px 0px rgb(114, 70, 12), 0 0px black, 0px 0 black, 0 -1px black;
+    text-shadow: -1px 0px rgb(6, 6, 6), 0 0px black, 0px 0 black, 0 -1px black;
 }
 
-.p1 {
+p1 {
     font-weight: 500;
-    font-size: 40px;
-    color:hsl(204, 84%, 48%);
+    font-size: 45px;
+    color:hsl(204, 88%, 30%);
     letter-spacing: 2px;
+    font-family:Monotype Corsiva;
     text-shadow: -1px 0px black, 0 0px black, 0px 0 black, 0 -1px black;
 }
 
-.p2 {
+p2 {
     font-weight: 500;
-    font-size: 40px;
+    font-size: 45px;
     color:hsl(204, 84%, 48%);
     letter-spacing: 2px;
+    font-family:Monotype Corsiva;
     text-shadow: -1px 0px black, 0 0px black, 0px 0 black, 0 -1px black;
     
 }
